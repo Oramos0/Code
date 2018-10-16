@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;
+    backface-visibility: hidden;
+}
+
+body{
+	background-color: #FAFDFF;
+    color: #535759;   
+}
+
+.main-log{
+    height: 50%;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.main-log_cont{
+	/*border: 1px solid black;*/
+	height: 80%;
+	width: 60%;
+	margin: auto;
+	margin-top: 5vh;
+}
+
+.log-cont{
+	width:20%;
+	height: 20%;
+	margin: auto;
+	margin-top: 2vh;
+	margin-bottom: 5vh;
+}
+
+.mail-cont,
+.pass-cont,
+.btn-cont{
+	/*border:1px solid red;*/
+	width: 50%;
+	margin: auto;
+	margin-bottom: 5%;
+}
+
+.pass-cont{
+	margin-bottom: 7%;
+}
+
+.mail-title,
+.pass-title{
+	margin: 10px 0 10px 0;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=submit], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    color: white;
+    background: #007BDF;
+    margin-bottom: 10px;
+}
+
+input[type=submit]:hover{
+	background: #006DC6;
+}
